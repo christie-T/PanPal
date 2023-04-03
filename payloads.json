@@ -1,0 +1,116 @@
+{
+  "functions/events/discord/bot_mention.js": {
+    "event": {
+      "id": "0000000000000000",
+      "tts": false,
+      "type": 0,
+      "flags": 0,
+      "nonce": "0000000000000000",
+      "author": {
+        "id": "0000000000000000",
+        "avatar": null,
+        "username": "SAMPLE_USER",
+        "public_flags": 0,
+        "discriminator": "1234"
+      },
+      "embeds": [],
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "roles": [],
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "hoisted_role": null
+      },
+      "pinned": false,
+      "content": "Test bot mention: <@!0000000000000000>",
+      "guild_id": "0000000000000000",
+      "mentions": [
+        {
+          "id": "0000000000000000",
+          "bot": true,
+          "avatar": null,
+          "member": {
+            "deaf": false,
+            "mute": false,
+            "nick": null,
+            "roles": [
+              "0000000000000000"
+            ],
+            "pending": false,
+            "joined_at": "2021-01-01T00:00:00+00:00",
+            "is_pending": false,
+            "hoisted_role": null,
+            "premium_since": null
+          },
+          "username": "SAMPLE_BOT_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        }
+      ],
+      "timestamp": "2021-01-01T00:00:00+00:00",
+      "channel_id": "1076872437175685170",
+      "attachments": [],
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "mention_everyone": false,
+      "referenced_message": null
+    }
+  },
+  "functions/events/discord/channel/message/createDarrenIsDumb.js": {
+    "event": {
+      "id": "0000000000000000",
+      "tts": false,
+      "type": 0,
+      "flags": 0,
+      "nonce": "0000000000000000",
+      "author": {
+        "id": "0000000000000000",
+        "avatar": "00000000000000000000000000000000",
+        "username": "SAMPLE_USER",
+        "public_flags": 0,
+        "discriminator": "1234"
+      },
+      "embeds": [],
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "roles": [],
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "hoisted_role": null
+      },
+      "pinned": false,
+      "content": "TEST MESSAGE",
+      "guild_id": "0000000000000000",
+      "mentions": [
+        {
+          "id": "0000000000000000",
+          "bot": false,
+          "avatar": null,
+          "member": {
+            "deaf": false,
+            "mute": false,
+            "nick": null,
+            "roles": [
+              "0000000000000000"
+            ],
+            "pending": false,
+            "joined_at": "2021-01-01T00:00:00+00:00",
+            "is_pending": false,
+            "hoisted_role": null,
+            "premium_since": null
+          },
+          "username": "SAMPLE_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        }
+      ],
+      "timestamp": "2021-01-01T00:00:00+00:00",
+      "channel_id": "1082421772684640446",
+      "attachments": [],
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "mention_everyone": false,
+      "referenced_message": null
+    }
+  }
+}

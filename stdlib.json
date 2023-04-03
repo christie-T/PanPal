@@ -1,0 +1,57 @@
+{
+  "name": "christie/Panpal",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/bot_mention.js": {
+      "name": "discord.bot_mention"
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/channel/message/createMine.js": {
+      "name": "discord.channel.message.create",
+      "subtype": {
+        "channel_id": "1050980409707601951"
+      }
+    },
+    "functions/events/discord/channel/message/createRyan.js": {
+      "name": "discord.channel.message.create",
+      "subtype": {
+        "channel_id": "1077069109864431687"
+      }
+    },
+    "functions/events/discord/channel/message/createDarrenIsDumb.js": {
+      "name": "discord.channel.message.create",
+      "subtype": {
+        "channel_id": "1077081057083523072"
+      }
+    },
+    "functions/events/discord/message/create/prefix/imagine.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "/imagine"
+      }
+    },
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/message/create/prefix/rate.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!rate"
+      }
+    },
+    "functions/events/discord/message/button/interaction_yum.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "yum_button_id"
+      }
+    },
+    "functions/events/discord/message/button/interaction_yuck.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "yuck_button_id"
+    
+  }
+}
