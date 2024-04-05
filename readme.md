@@ -5,8 +5,9 @@
 
 <div align="center">
 
-## 🍳 PanPal 👯 - discord.js v14 Cooking Bot (??) 
-Bot is NOT being hosted right now. See below for deploy instructions.
+ 🍳 PanPal 👯 - discord.js v14 Cooking Bot (??) 
+ 
+ Bot is NOT being hosted right now. See below for deploy instructions.
 
 </div>
     
