@@ -48,7 +48,7 @@
 
 ```
 git clone https://github.com/christie-T/PanPal
-cd discord-js-bot
+cd [your-directory]/PanPal
 ```
 
 2. install dependencies :
